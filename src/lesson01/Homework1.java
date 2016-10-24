@@ -131,10 +131,8 @@ public class Homework1 {
 
         //«Счастливые» числа
         Collections.sort(numArray);
-        //System.out.println("«Счастливые» числа: "+ numArray.toString());
         ArrayList<Integer> luckyArray = new ArrayList<>();
         String luckyNumbers = "";
-        //ArrayList<Integer> luckyNumbers = new ArrayList<>();
         for (int i=1; i<=numArray.get(numArray.size() - 1);i++){
             luckyArray.add(i);
         }
